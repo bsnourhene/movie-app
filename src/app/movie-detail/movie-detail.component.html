@@ -1,0 +1,11 @@
+<div *ngIf="movie">
+    <h2>{{ movie.title }} ({{ movie.releaseDate }})</h2>
+    <p><strong>Genre:</strong> {{ movie.genre }}</p>
+    <p><strong>Vote Moyenne:</strong> {{ movie.voteAverage }}</p>
+    <p><strong>Résumé:</strong> {{ movie.overview }}</p>
+    <img [src]="movie.imageUrl" alt="{{ movie.title }}" width="300" />
+  </div>
+  <div *ngIf="!movie">
+    <p>Aucun film trouvé.</p>
+  </div>
+  

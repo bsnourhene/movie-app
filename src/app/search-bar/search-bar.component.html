@@ -1,0 +1,11 @@
+<div class="body">
+<div class="search-bar-container">
+    <input 
+      type="text" 
+      placeholder="Rechercher un film" 
+      (keypress)="onKeyPress($event)" 
+      (keyup.backspace)="onBackspace()">
+    <fa-icon class="search-icon" [icon]="faSearch" ></fa-icon>
+</div>
+</div>
+  

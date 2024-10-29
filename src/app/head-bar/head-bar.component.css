@@ -1,0 +1,38 @@
+:host {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: rgb(229, 229, 40);
+    padding: 10px 20px;
+    height: 80px;
+}
+  
+h1 {
+    color: black; 
+    margin: 0; 
+}
+  
+
+button {
+    background-color: black; 
+    color: rgb(229, 229, 40); 
+    border: none; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    display: flex;
+    align-items: center; 
+    border-radius: 10px;
+}
+  
+  
+fa-icon {
+    margin-right: 5px; 
+}
+  
+
+button:hover {
+    background-color: rgb(229, 229, 40); 
+    color: black; 
+}
+  
